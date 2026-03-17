@@ -11,7 +11,6 @@ The macro uses screen capture and image processing techniques to:
 
 **NOTE**:  
 This macro is dependent on Windows, as it uses packages like `pyautogui` (for mouse automation) and assumes image resources and certain screen layouts.  
-You must provide number images (`1.png`, `2.png`, ..., `9.png`) in `./imgs/` for detection.
 
 ---
 
@@ -34,10 +33,7 @@ You must provide number images (`1.png`, `2.png`, ..., `9.png`) in `./imgs/` for
     pip install pyautogui pandas scikit-learn keyboard numpy
     ```
 
-4. **Prepare image assets**:
-    - Place screenshot crops (`1.png` ~ `9.png`) in the `./imgs/` directory, matching the digits displayed on the fruits in-game.
-
-5. **Set up environment**:
+4. **Set up environment**:
     - Make sure your display scaling is 100%, and the game window is visible and not obstructed when you run the macro.
 
 ---
