@@ -16,24 +16,24 @@ This macro is dependent on Windows, as it uses packages like `pyautogui` (for mo
 
 ## 🍎 Setup
 
-1. **Clone this repository**:
+1. Clone this repository:
     ```bash
     git clone https://github.com/sisihae/fruitsbox_a_macro.git
     cd fruitsbox_a_macro
     ```
 
-2. **Create and activate a virtual environment (optional but recommended):**
+2. Create and activate a virtual environment (optional but recommended):
     ```bash
     python -m venv .venv
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
     ```
 
-3. **Install dependencies**:
+3. Install dependencies:
     ```bash
     pip install pyautogui pandas scikit-learn keyboard numpy
     ```
 
-4. **Set up environment**:
+4. Set up environment:
     - Make sure your display scaling is 100%, and the game window is visible and not obstructed when you run the macro.
 
 ---
@@ -67,11 +67,11 @@ You can stop the macro at any time by pressing the `q` key.
 
 ## 🍎 Usage
 
-1. **Open the FruitsBox A game and arrange window for visibility.**
-2. **Run the notebook or script**:
+1. Open the FruitsBox A game and arrange window for visibility.
+2. Run the notebook or script:
     - Use Jupyter Notebook and execute the cells sequentially, or convert and run as a script if you like.
-3. **The macro will automatically detect, process, and interact with the game**.
-4. **Press `q` to stop the automation.**
+3. The macro will automatically detect, process, and interact with the game.
+4. Press `q` to stop the automation.
 
 ---
 
